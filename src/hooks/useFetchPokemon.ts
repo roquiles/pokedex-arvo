@@ -6,6 +6,7 @@ const useFetchPokemon = () => {
   const [error, setError] = useState('');
 
   const fetchPokemon = async (pokemonId: string) => {
+    setError('');
     setIsLoading(true);
 
     try {
