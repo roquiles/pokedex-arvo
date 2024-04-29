@@ -4,11 +4,7 @@ export type PokemonType = {
   height?: number;
   weight?: number;
   abilities: Array<string>;
-  types: Array<{
-    types: {
-      name: string;
-    };
-  }>;
+  types: Array<string>;
   stats: Array<{
     base_stat: number;
     stat: {
