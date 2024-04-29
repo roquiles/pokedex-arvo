@@ -1,5 +1,5 @@
 import { validatePokemonId } from '@/utils';
-import { useCallback, useState } from 'react';
+import { FormEvent, useCallback, useState } from 'react';
 
 type SearchBarProps = {
   onSearch: (id: string) => void;
@@ -10,7 +10,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
   const [lastSearchedValue, setLastSearchedValue] = useState('');
 
   const handleSearch = useCallback(
-    (e) => {
+    (e: FormEvent) => {
       e.preventDefault();
       const validatedInputValue = validatePokemonId(enteredValue);
 
