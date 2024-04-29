@@ -1,4 +1,4 @@
-const Empty = () => (
+const Empty: React.FC = () => (
   <svg
     width="50px"
     height="50px"
@@ -7,11 +7,11 @@ const Empty = () => (
     fill="rgb(31 41 55)"
     className="mx-auto mt-10 mb-5"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+    <g id="SVGRepo_bgCarrier" strokeWidth="0" />
     <g
       id="SVGRepo_tracerCarrier"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <g id="SVGRepo_iconCarrier">
       <g

@@ -1,4 +1,4 @@
-const LoaderSpinner = () => (
+const LoaderSpinner: React.FC = () => (
   <svg
     height="70px"
     width="70px"

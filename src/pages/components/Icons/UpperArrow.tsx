@@ -1,4 +1,4 @@
-const UpperArrow = () => (
+const UpperArrow: React.FC = () => (
   <svg
     fill="rgb(31 41 55)"
     height="40px"
@@ -11,11 +11,11 @@ const UpperArrow = () => (
     xmlSpace="preserve"
     className="mx-auto my-10 animate-bounce"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+    <g id="SVGRepo_bgCarrier" strokeWidth="0" />
     <g
       id="SVGRepo_tracerCarrier"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <g id="SVGRepo_iconCarrier">
       <path
