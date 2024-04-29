@@ -1,4 +1,4 @@
-import { Pokemon } from '@/types/pokemon';
+import { PokemonType } from '@/types/pokemon';
 import { validatePokemonId, pokemonInfoParser } from '@/utils';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import NodeCache from 'node-cache';
@@ -13,7 +13,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     return res.status(404).json({ message: 'Not found.' });
   }
 
-  const cachedPokemon: { status: number; response: Pokemon } | undefined =
+  const cachedPokemon: { status: number; response: PokemonType } | undefined =
     cache.get(validatedPokemonId);
 
   if (cachedPokemon) {

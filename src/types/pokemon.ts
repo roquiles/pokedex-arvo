@@ -1,13 +1,9 @@
-export type Pokemon = {
+export type PokemonType = {
   id: number;
   name: string;
   height?: number;
   weight?: number;
-  abilities: Array<{
-    ability: {
-      name: string;
-    };
-  }>;
+  abilities: Array<string>;
   types: Array<{
     types: {
       name: string;
