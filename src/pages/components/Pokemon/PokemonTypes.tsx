@@ -1,7 +1,7 @@
 import { getTypeColor } from '@/utils';
 
 const PokemonTypes: React.FC<{ types: string[] }> = ({ types }) => (
-  <div className="ml-4 mb-10 text-start">
+  <div className="mb-10 text-start sm:ml-4">
     <h3 className="text-2xl text-gray-800 font-semibold mb-4">Types</h3>
     {types?.map((item) => (
       <span

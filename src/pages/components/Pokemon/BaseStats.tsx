@@ -20,7 +20,7 @@ const BaseStats: React.FC<BaseStatsProps> = ({ stats }) => {
   );
 
   return (
-    <div className="col-span-3 md:col-span-2 text-start ml-4 sm:ml-8">
+    <div className="col-span-3 md:col-span-2 text-start sm:ml-8">
       <h3 className=" text-2xl text-gray-800 font-semibold mb-4 ">
         Base Stats
       </h3>
