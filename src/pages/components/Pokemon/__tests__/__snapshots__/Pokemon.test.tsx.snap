@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` should render correctly 1`] = `
+exports[`Pokemon should render correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -13,13 +13,8 @@ exports[` should render correctly 1`] = `
         >
           <img
             alt="Chansey"
-            data-nimg="1"
-            decoding="async"
             height="150"
-            loading="lazy"
-            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=384&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=384&q=75 2x"
-            style="color: transparent;"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
             width="150"
           />
           <h2
@@ -241,13 +236,8 @@ exports[` should render correctly 1`] = `
       >
         <img
           alt="Chansey"
-          data-nimg="1"
-          decoding="async"
           height="150"
-          loading="lazy"
-          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=384&q=75"
-          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=384&q=75 2x"
-          style="color: transparent;"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
           width="150"
         />
         <h2

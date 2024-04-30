@@ -21,7 +21,7 @@ const pokemonMock = {
   ],
 };
 
-describe('', () => {
+describe('Pokemon', () => {
   it('should render correctly', () => {
     const component = render(<Pokemon activePokemon={pokemonMock} />);
     expect(component).toMatchSnapshot();
