@@ -1,4 +1,4 @@
-const validatePokemonId = (id: string | string[] | undefined) => {
+const validatePokemonId = (id: string | undefined) => {
   if (!id) {
     return '';
   }

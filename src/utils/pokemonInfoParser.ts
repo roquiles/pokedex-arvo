@@ -1,8 +1,30 @@
-import { Pokemon } from '@/types/pokemon';
 import getAttributesList from './getAttributesList';
 import getStatsList from './getStatsList';
 
-const pokemonInfoParser = (pokemon: Pokemon) => {
+export type RawPokemon = {
+  id: number;
+  name: string;
+  height: number;
+  weight: number;
+  abilities: Array<{
+    ability: {
+      name: string;
+    };
+  }>;
+  types: Array<{
+    types: {
+      name: string;
+    };
+  }>;
+  stats: Array<{
+    base_stat: number;
+    stat: {
+      name: string;
+    };
+  }>;
+};
+
+const pokemonInfoParser = (pokemon: RawPokemon) => {
   const {
     id,
     name,
