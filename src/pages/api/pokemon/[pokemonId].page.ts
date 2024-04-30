@@ -7,7 +7,7 @@ const cache = new NodeCache({ stdTTL: 3600 }); // Define cache timeout to 1 hour
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const { pokemonId } = req.query;
-  const validatedPokemonId = validatePokemonId(pokemonId);
+  const validatedPokemonId = validatePokemonId(pokemonId as string);
 
   if (!validatedPokemonId) {
     return res.status(404).json({ message: 'Not found.' });
