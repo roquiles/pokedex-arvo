@@ -1,5 +1,4 @@
 import { PokemonType } from '@/types/pokemon';
-import Image from 'next/image';
 import InfoCard from './InfoCard';
 import PokemonTypes from './PokemonTypes';
 import BaseStats from './BaseStats';
@@ -14,7 +13,7 @@ const Pokemon: React.FC<PokemonProps> = ({ activePokemon }) => {
   return (
     <div className="bg-white rounded mt-10 p-6">
       <div className="flex items-center flex-col mb-5 sm:flex-row sm:ml-6 ">
-        <Image
+        <img
           width={150}
           height={150}
           src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`}
