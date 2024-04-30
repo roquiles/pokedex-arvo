@@ -40,7 +40,9 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       return res.json(parsedPokemonInfo);
     }
 
-    const errorResponse = { message: pokeApiResponse.statusText };
+    const errorResponse = {
+      message: `${pokeApiResponse.statusText}. Try again!`,
+    };
 
     cache.set(validatedPokemonId, {
       status: pokeApiResponse.status,
@@ -49,7 +51,9 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
     return res.status(pokeApiResponse.status).json(errorResponse);
   } catch (e) {
-    return res.status(500).json({ message: 'Failed to search pokemon.' });
+    return res
+      .status(500)
+      .json({ message: 'Failed to search pokemon. Try again!' });
   }
 };
 
