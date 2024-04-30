@@ -16,16 +16,14 @@ const InfoCard: React.FC<{ infos: Partial<PokemonType> }> = ({ infos }) => {
       <div className="flex flex-col mb-3.5 text-center text-wrap">
         Abilities:&nbsp;
         <ul>
-          {abilities &&
-            abilities.map((ability, index) => (
-              <li
-                className="capitalize text-gray-800 text-xl mr-1 font-semibold"
-                key={ability}
-              >
-                {ability}
-                {index === abilities.length - 1 ? '' : `, `}
-              </li>
-            ))}
+          {abilities?.map((ability) => (
+            <li
+              className="capitalize text-gray-800 text-xl mr-1 font-semibold"
+              key={ability}
+            >
+              {ability}
+            </li>
+          ))}
         </ul>
       </div>
     </div>
