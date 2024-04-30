@@ -7,11 +7,11 @@ type LayoutProps = {
 };
 
 const Layout: React.FC<LayoutProps> = ({ children }) => (
-  <>
+  <div className="flex flex-col h-full">
     <Header />
     {children}
     <Footer />
-  </>
+  </div>
 );
 
 export default Layout;
