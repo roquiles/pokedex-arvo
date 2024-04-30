@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` should render correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg-white rounded mt-10 p-6"
+      >
+        <div
+          class="flex items-center flex-col mb-5 sm:flex-row sm:ml-6 "
+        >
+          <img
+            alt="Chansey"
+            data-nimg="1"
+            decoding="async"
+            height="150"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=384&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=384&q=75 2x"
+            style="color: transparent;"
+            width="150"
+          />
+          <h2
+            class="text-gray-700 capitalize text-4xl font-semibold sm:ml-5"
+          >
+            #
+            113
+             - 
+            Chansey
+          </h2>
+        </div>
+        <div
+          class="w-full grid grid-cols-3"
+        >
+          <div
+            class="col-span-3 mt-10 md:col-span-1 md:mt-0"
+          >
+            <div
+              class="rounded-lg bg-yellow-400 p-5 text-gray-600 mb-8"
+            >
+              <div
+                class="flex flex-col mb-3.5 items-center"
+              >
+                Height: 
+                <span
+                  class="text-gray-800 text-xl font-semibold"
+                >
+                  11
+                </span>
+              </div>
+              <div
+                class="flex flex-col mb-3.5 items-center"
+              >
+                Weight: 
+                <span
+                  class="text-gray-800 text-xl font-semibold"
+                >
+                  346
+                </span>
+              </div>
+              <div
+                class="flex flex-col mb-3.5 text-center text-wrap"
+              >
+                Abilities: 
+                <ul>
+                  <li
+                    class="capitalize text-gray-800 text-xl mr-1 font-semibold"
+                  >
+                    natural-cure
+                  </li>
+                  <li
+                    class="capitalize text-gray-800 text-xl mr-1 font-semibold"
+                  >
+                    serene-grace
+                  </li>
+                  <li
+                    class="capitalize text-gray-800 text-xl mr-1 font-semibold"
+                  >
+                    healer
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="mb-10 text-start sm:ml-4"
+            >
+              <h3
+                class="text-2xl text-gray-800 font-semibold mb-4"
+              >
+                Types
+              </h3>
+              <span
+                class="px-6 py-1 rounded-full mr-2"
+                style="background-color: rgb(217, 217, 217);"
+              >
+                normal
+              </span>
+            </div>
+          </div>
+          <div
+            class="col-span-3 md:col-span-2 text-start sm:ml-8"
+          >
+            <h3
+              class=" text-2xl text-gray-800 font-semibold mb-4 "
+            >
+              Base Stats
+            </h3>
+            <div
+              class="mb-2"
+            >
+              <span
+                class="uppercase text-gray-500"
+              >
+                hp
+              </span>
+              <div
+                class="flex"
+              >
+                <div
+                  class="h6 rounded-sm bg-teal-600 mr-1"
+                  style="width: 100%;"
+                />
+                <span>
+                  250
+                </span>
+              </div>
+            </div>
+            <div
+              class="mb-2"
+            >
+              <span
+                class="uppercase text-gray-500"
+              >
+                attack
+              </span>
+              <div
+                class="flex"
+              >
+                <div
+                  class="h6 rounded-sm bg-teal-600 mr-1"
+                  style="width: 2%;"
+                />
+                <span>
+                  5
+                </span>
+              </div>
+            </div>
+            <div
+              class="mb-2"
+            >
+              <span
+                class="uppercase text-gray-500"
+              >
+                defense
+              </span>
+              <div
+                class="flex"
+              >
+                <div
+                  class="h6 rounded-sm bg-teal-600 mr-1"
+                  style="width: 2%;"
+                />
+                <span>
+                  5
+                </span>
+              </div>
+            </div>
+            <div
+              class="mb-2"
+            >
+              <span
+                class="uppercase text-gray-500"
+              >
+                special-attack
+              </span>
+              <div
+                class="flex"
+              >
+                <div
+                  class="h6 rounded-sm bg-teal-600 mr-1"
+                  style="width: 14%;"
+                />
+                <span>
+                  35
+                </span>
+              </div>
+            </div>
+            <div
+              class="mb-2"
+            >
+              <span
+                class="uppercase text-gray-500"
+              >
+                special-defense
+              </span>
+              <div
+                class="flex"
+              >
+                <div
+                  class="h6 rounded-sm bg-teal-600 mr-1"
+                  style="width: 42%;"
+                />
+                <span>
+                  105
+                </span>
+              </div>
+            </div>
+            <div
+              class="mb-2"
+            >
+              <span
+                class="uppercase text-gray-500"
+              >
+                speed
+              </span>
+              <div
+                class="flex"
+              >
+                <div
+                  class="h6 rounded-sm bg-teal-600 mr-1"
+                  style="width: 20%;"
+                />
+                <span>
+                  50
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="bg-white rounded mt-10 p-6"
+    >
+      <div
+        class="flex items-center flex-col mb-5 sm:flex-row sm:ml-6 "
+      >
+        <img
+          alt="Chansey"
+          data-nimg="1"
+          decoding="async"
+          height="150"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=384&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F113.png&w=384&q=75 2x"
+          style="color: transparent;"
+          width="150"
+        />
+        <h2
+          class="text-gray-700 capitalize text-4xl font-semibold sm:ml-5"
+        >
+          #
+          113
+           - 
+          Chansey
+        </h2>
+      </div>
+      <div
+        class="w-full grid grid-cols-3"
+      >
+        <div
+          class="col-span-3 mt-10 md:col-span-1 md:mt-0"
+        >
+          <div
+            class="rounded-lg bg-yellow-400 p-5 text-gray-600 mb-8"
+          >
+            <div
+              class="flex flex-col mb-3.5 items-center"
+            >
+              Height: 
+              <span
+                class="text-gray-800 text-xl font-semibold"
+              >
+                11
+              </span>
+            </div>
+            <div
+              class="flex flex-col mb-3.5 items-center"
+            >
+              Weight: 
+              <span
+                class="text-gray-800 text-xl font-semibold"
+              >
+                346
+              </span>
+            </div>
+            <div
+              class="flex flex-col mb-3.5 text-center text-wrap"
+            >
+              Abilities: 
+              <ul>
+                <li
+                  class="capitalize text-gray-800 text-xl mr-1 font-semibold"
+                >
+                  natural-cure
+                </li>
+                <li
+                  class="capitalize text-gray-800 text-xl mr-1 font-semibold"
+                >
+                  serene-grace
+                </li>
+                <li
+                  class="capitalize text-gray-800 text-xl mr-1 font-semibold"
+                >
+                  healer
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="mb-10 text-start sm:ml-4"
+          >
+            <h3
+              class="text-2xl text-gray-800 font-semibold mb-4"
+            >
+              Types
+            </h3>
+            <span
+              class="px-6 py-1 rounded-full mr-2"
+              style="background-color: rgb(217, 217, 217);"
+            >
+              normal
+            </span>
+          </div>
+        </div>
+        <div
+          class="col-span-3 md:col-span-2 text-start sm:ml-8"
+        >
+          <h3
+            class=" text-2xl text-gray-800 font-semibold mb-4 "
+          >
+            Base Stats
+          </h3>
+          <div
+            class="mb-2"
+          >
+            <span
+              class="uppercase text-gray-500"
+            >
+              hp
+            </span>
+            <div
+              class="flex"
+            >
+              <div
+                class="h6 rounded-sm bg-teal-600 mr-1"
+                style="width: 100%;"
+              />
+              <span>
+                250
+              </span>
+            </div>
+          </div>
+          <div
+            class="mb-2"
+          >
+            <span
+              class="uppercase text-gray-500"
+            >
+              attack
+            </span>
+            <div
+              class="flex"
+            >
+              <div
+                class="h6 rounded-sm bg-teal-600 mr-1"
+                style="width: 2%;"
+              />
+              <span>
+                5
+              </span>
+            </div>
+          </div>
+          <div
+            class="mb-2"
+          >
+            <span
+              class="uppercase text-gray-500"
+            >
+              defense
+            </span>
+            <div
+              class="flex"
+            >
+              <div
+                class="h6 rounded-sm bg-teal-600 mr-1"
+                style="width: 2%;"
+              />
+              <span>
+                5
+              </span>
+            </div>
+          </div>
+          <div
+            class="mb-2"
+          >
+            <span
+              class="uppercase text-gray-500"
+            >
+              special-attack
+            </span>
+            <div
+              class="flex"
+            >
+              <div
+                class="h6 rounded-sm bg-teal-600 mr-1"
+                style="width: 14%;"
+              />
+              <span>
+                35
+              </span>
+            </div>
+          </div>
+          <div
+            class="mb-2"
+          >
+            <span
+              class="uppercase text-gray-500"
+            >
+              special-defense
+            </span>
+            <div
+              class="flex"
+            >
+              <div
+                class="h6 rounded-sm bg-teal-600 mr-1"
+                style="width: 42%;"
+              />
+              <span>
+                105
+              </span>
+            </div>
+          </div>
+          <div
+            class="mb-2"
+          >
+            <span
+              class="uppercase text-gray-500"
+            >
+              speed
+            </span>
+            <div
+              class="flex"
+            >
+              <div
+                class="h6 rounded-sm bg-teal-600 mr-1"
+                style="width: 20%;"
+              />
+              <span>
+                50
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
