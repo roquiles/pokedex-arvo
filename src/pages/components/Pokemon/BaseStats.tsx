@@ -1,3 +1,5 @@
+import { useCallback, useMemo } from 'react';
+
 type BaseStatsProps = {
   stats: Array<{
     name: string;
@@ -7,12 +9,15 @@ type BaseStatsProps = {
 
 const BaseStats: React.FC<BaseStatsProps> = ({ stats }) => {
   const statsValues = stats?.map((stat) => stat.value);
-  const maxStatValue = Math.max(...statsValues);
+  const maxStatValue = useMemo(() => Math.max(...statsValues), [statsValues]);
 
-  const getStatWidth = (value: number) =>
-    value === maxStatValue
-      ? '100%'
-      : `${Math.round((value * 100) / maxStatValue)}%`;
+  const getStatWidth = useCallback(
+    (value: number) =>
+      value === maxStatValue
+        ? '100%'
+        : `${Math.round((value * 100) / maxStatValue)}%`,
+    [maxStatValue],
+  );
 
   return (
     <div className="col-span-3 md:col-span-2 text-start ml-4 sm:ml-8">
