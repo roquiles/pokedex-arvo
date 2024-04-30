@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useCallback } from 'react';
 
@@ -16,7 +15,7 @@ const Header: React.FC = () => {
   return (
     <header className="w-full bg-indigo-900 h-16 flex items-center justify-center shadow-xl">
       <button type="button" onClick={goToHome}>
-        <Image
+        <img
           src="/logo.png"
           alt="Pokédex"
           width="0"
