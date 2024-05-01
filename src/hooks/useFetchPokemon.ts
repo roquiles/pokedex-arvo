@@ -11,7 +11,7 @@ const useFetchPokemon = () => {
 
     try {
       const apiResponse = await fetch(
-        `http://localhost:3000/api/pokemon/${pokemonId}`,
+        `${window.location.origin}/api/pokemon/${pokemonId}`,
       );
 
       if (apiResponse.status !== 200) {
