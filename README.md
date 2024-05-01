@@ -130,3 +130,7 @@ npm test
 - **Prettier**: For formatting the codebase
 - **Jest**: As a testing framework
 - **React Testing Library**: As a library for tests
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
