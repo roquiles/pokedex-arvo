@@ -6,6 +6,10 @@ import NodeCache from 'node-cache';
 const cache = new NodeCache({ stdTTL: 3600 }); // Define cache timeout to 1 hour.
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
+  if (req.method !== 'GET') {
+    res.status(405).json({ message: 'Method not allowed.' });
+  }
+
   const { pokemonId } = req.query;
   const validatedPokemonId = validatePokemonId(pokemonId as string);
 
