@@ -1,40 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokedex App
 
-## Getting Started
+Pokedéx App, a Pokémon encyclopedia.
 
-First, run the development server:
+This application has back and front-end parts, both developed using Next.js as framework.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Install
+
+1. Clone the repository:
+
+```
+git clone https://github.com/roquiles/pokedex-arvo.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install project's dependencies:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. Start the project :
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Development mode:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+npm run dev
+```
 
-## Learn More
+After `npm run dev / npm start` the project (back and front-end) will be running at http://localhost:3000.
 
-To learn more about Next.js, take a look at the following resources:
+## API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To build the application for production usage:
 
-## Deploy on Vercel
+```
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+After the build command, in order to start a Next.js production server, run:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+npm run build
+```
+
+## Lint
+
+This project uses ESLint to avoid errors and keep an organized and clean codebase. To run the linter, use the command below:
+
+```
+
+npm run lint
+
+```
+
+## Tests
+
+This project uses Jest with React Testing Library to test some components and utility functions. To run tests, use the command below:
+
+```
+
+npm run test
+
+```
+
+## Tooling
+
+**Webpack5**: For automatically bundle the app
+
+**Babel**: As a compiler
+
+**Eslint**: As a linter
+
+**Prettier**: For formatting the codebase
+
+**TypeScript**: As programming language
+
+**ReactJS**: As a JavaScript framework
+
+**Redux**: For controlling/manage state
+
+**Ant Design**: As a design system
+
+**Jest**: As a testing framework
+
+```
+
+```
