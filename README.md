@@ -5,7 +5,7 @@ This application is built with Next.js contemplating both front-end and back-end
 
 ## Requirements
 
-The project requires Node version 20.11.0
+The project was built on top of Node version 20.11.0. If you use older versions, you might face issues. So, it's recommended that you use Node vˆ20.
 
 If you use **nvm**, you can run `nvm use`.
 
