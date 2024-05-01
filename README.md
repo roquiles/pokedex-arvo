@@ -3,6 +3,12 @@
 Pokedéx App, a Pokémon encyclopedia.
 This application is built with Next.js contemplating both front-end and back-end.
 
+## Requirements
+
+The project requires Node version 20.11.0
+
+If you use **nvm**, you can run `nvm use`.
+
 ## Install
 
 1. Clone the repository:
