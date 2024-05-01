@@ -47,6 +47,8 @@ After the build command, in order to start a Next.js production server, run:
 npm start
 ```
 
+The above command will try to run the application at port 3000, by default. If it is in use, you'll need to change it.
+
 ## API
 
 ### Endpoints
