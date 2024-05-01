@@ -8,7 +8,7 @@ const getAttributesList = (attributes: Attribute[], attributeName: string) => {
   const attributesList = attributes.reduce(
     (attributesArr: Array<{}>, item) => [
       ...attributesArr,
-      item[attributeName].name,
+      item[attributeName]?.name,
     ],
     [],
   );
